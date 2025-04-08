@@ -1,0 +1,67 @@
+{
+  "name": "mouth-map",
+  "version": "1.0.0",
+  "main": "source/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node source/server.ts",
+    "dev": "nodemon -x ts-node source/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "16.x"
+  },
+  "compilerOptions": {
+    "include": [
+      "source/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@sendgrid/client": "^7.7.0",
+    "@sendgrid/mail": "^7.7.0",
+    "apn": "^2.2.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fcm-node": "^1.6.1",
+    "handlebars": "^4.7.7",
+    "http-status": "^1.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.0",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.2",
+    "passport-jwt": "^4.0.0",
+    "stripe": "^11.1.0",
+    "ts-node": "^10.9.1",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/hapi__joi": "^17.1.8",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/lodash": "^4.14.186",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^18.11.7",
+    "@types/passport-jwt": "^3.0.7",
+    "typescript": "^4.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zudu-Github-Organisation/MouthMap-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zudu-Github-Organisation/MouthMap-API/issues"
+  },
+  "homepage": "https://github.com/Zudu-Github-Organisation/MouthMap-API#readme",
+  "description": ""
+}
